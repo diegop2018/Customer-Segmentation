@@ -1,0 +1,12 @@
+Algorithm,Parameters,N_Clusters,N_Noise,Silhouette_Score,Davies_Bouldin,Calinski_Harabasz,WCSS
+DBSCAN,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}",2,100,0.8145,0.149,581.5297,314.0911
+GNN-HDBSCAN,"{'k_neighbors': 8, 'epochs': 100, 'embedding_dim': 20, 'hidden_dim': 24, 'min_cluster_size': 30, 'min_samples': 3, 'n_noise_points': 165, 'noise_ratio': 0.3548387096774194, 'embedding_quality_score': np.float32(0.26074842)}",3,165,0.7509999871253967,0.2633,9606.9697265625,2.882499933242798
+HDBSCAN,{'min_cluster_size': 15},6,341,0.7064,0.4119,6561.952,2.8041
+Mean Shift,{'bandwidth': 2.0},2,0,0.6735,0.5762,636.5174,685.279
+Spectral Clustering,"{'n_clusters': 4, 'affinity': 'rbf'}",4,0,0.583,0.5365,297.8385,553.867
+GNN,"{'k': 10, 'k_neighbors': 8, 'epochs': 100, 'embedding_dim': 8, 'hidden_dim': 16}",10,0,0.5740000009536743,0.7519,807.376220703125,15.662599563598633
+K-Means,{'k': 7},7,0,0.4618,0.8748,597.3547,184.3928
+BIRCH,"{'n_clusters': 7, 'threshold': 0.1}",7,0,0.4467,0.9039,540.616,201.3507
+Fuzzy C-Means,"{'c': 4, 'fpc': np.float64(0.6611)}",4,0,0.4406,0.794,579.4754,341.0987
+Variational Deep Embedding Optimized,{'k': 7},7,0,0.4288,0.91,567.1924,193.0353
+Ensemble Clustering,"{'n_clusters': 5, 'n_algorithms': 3}",5,0,0.3974,0.8423,398.8321,364.2211
