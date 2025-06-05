@@ -1,3 +1,6 @@
+
+Simulacion de clusteres
+
 🎯 Componentes Principales:
 1. RFMEnvironment - Entorno de Simulación
 
